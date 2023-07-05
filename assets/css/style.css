@@ -5,13 +5,13 @@
   padding: 0;
   box-sizing: border-box;
 
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 :root {
-  --hue: 90;
-  --primary-color: hsl(var(--hue), 92%, 43%);
-  --primary-hover: hsl(var(--hue), 92%, 33%);
+  --hue: 100;
+  --primary-color: hsl(293, 80%, 40%);
+  --primary-hover: hsl(var(--hue), 100%, 35%);
   --secundary-color: hsl(0, 0%, 5%);
   --third-color: hsla(0, 0%, 100%, 0.1);
   --bg-color: hsl(0, 0%, 8%);
@@ -238,11 +238,11 @@ body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
 }
 
 #contact li path,
-#navigation button.open-menu path[stroke*="#00856F"] {
+#navigation button.open-menu path[stroke*='#00856F'] {
   stroke: var(--primary-color);
 }
 
-#navigation.scroll button.open-menu path[stroke*="#00856F"] {
+#navigation.scroll button.open-menu path[stroke*='#00856F'] {
   stroke: var(--paragraph-2);
 }
 
@@ -278,7 +278,7 @@ body.light-mode nav.scroll {
 /* LOGO */
 
 a.logo {
-  font-family: "Gemunu Libre", sans-serif;
+  font-family: 'Gemunu Libre', sans-serif;
   font-size: 3rem;
   opacity: 0.7;
 }
@@ -496,7 +496,7 @@ body.menu-expanded button path {
 }
 
 #home .wrapper::before {
-  content: "";
+  content: '';
   display: block;
 
   width: 27rem;
@@ -893,7 +893,7 @@ body.light-mode #home img#notebook-2-white {
 }
 
 #contact .col-b::after {
-  content: "";
+  content: '';
   display: block;
 
   width: 13rem;
@@ -989,7 +989,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 }
 
 #toggle label::before {
-  content: "";
+  content: '';
   display: block;
 
   width: 3rem;
@@ -1143,7 +1143,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   }
 
   nav#navigation .menu ul:nth-child(1) li a::after {
-    content: "";
+    content: '';
     width: 0%;
     height: 2px;
     background-color: var(--primary-color);
@@ -1253,7 +1253,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
     justify-content: space-between;
 
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "A B";
+    grid-template-areas: 'A B';
   }
 
   #home .col-a {
@@ -1298,7 +1298,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
   #about .wrapper {
     grid-template-columns: 48rem 1fr;
-    grid-template-areas: "B A";
+    grid-template-areas: 'B A';
 
     gap: 6.7rem;
   }
@@ -1358,7 +1358,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
   #contact .wrapper {
     grid-template-columns: 1fr 57.5rem;
-    grid-template-areas: "A B";
+    grid-template-areas: 'A B';
   }
 
   #contact .col-a {
@@ -1381,7 +1381,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
 
   footer .wrapper {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "A B";
+    grid-template-areas: 'A B';
   }
 
   footer .col-a {
